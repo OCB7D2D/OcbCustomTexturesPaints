@@ -1,0 +1,23 @@
+<configs>
+
+	<setattribute xpath="/blocks/block[@name='brickShapes']/property[@name='Texture']" name="value">bark_pine_002</setattribute>
+
+	<append xpath="/blocks">
+
+		<block name="demo_terrain">
+			<property name="Material" value="Mwood"/>
+			<property name="NoScrapping" value="true"/>
+			<property name="Shape" value="Terrain"/>
+			<property name="Mesh" value="terrain"/>
+			<property name="Texture" value="demo_terrain"/>
+			<!-- Honestly no idea what this does exactly!? -->
+			<property name="TerrainIndex" value="9"/>
+			<property name="LPHardnessScale" value="2"/>
+			<property name="Map.Color" value="40,73,39"/>
+			<property name="ImposterExclude" value="true"/>
+			<property name="DisplayType" value="blockTerrain"/>
+		</block>
+
+	</append>
+
+</configs>
