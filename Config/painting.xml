@@ -2,12 +2,12 @@
 
 	<append xpath="/paints">
 
-		<terrain id="demo_terrain">
+		<terrain id="demo_terrain" x="0" y="0" w="0" h="0" blockw="1" blockh="1">
 			<property name="Diffuse" value="#@modfolder:Resources/Atlas.unity3d?assets/bark_pine_002_diffuse.jpg"/>
 			<property name="Normal" value="#@modfolder:Resources/Atlas.unity3d?assets/bark_pine_002_normal.jpg"/>
 			<property name="Color" value="0.2588235,0.2705882,0.1921569" />
-			<property name="SwitchUV" value="True" />
-			<property name="GlobalUV" value="False" />
+			<property name="SwitchUV" value="False" />
+			<property name="GlobalUV" value="True" />
 			<property name="Material" value="dirt" />
 		</terrain >
 
