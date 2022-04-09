@@ -10,7 +10,7 @@
 			<property name="Shape" value="Terrain"/>
 			<property name="Mesh" value="terrain"/>
 			<property name="Texture" value="demo_terrain"/>
-			<!-- Honestly no idea what this does exactly!? -->
+			<!-- Seems to be only used for the preview!? -->
 			<property name="TerrainIndex" value="9"/>
 			<property name="LPHardnessScale" value="2"/>
 			<property name="Map.Color" value="40,73,39"/>
