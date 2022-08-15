@@ -1,0 +1,17 @@
+<configs>
+
+	<append xpath="/worldgeneration/biomes/biome/subbiome/decorations[decoration[@blockname='plantedChrysanthemum3Harvest']]">
+
+		<decoration type="block" blockname="ocb_flower_001" prob="0.01" rotatemax="7"/>
+		<decoration type="block" blockname="ocb_flower_002" prob="0.01" rotatemax="7"/>
+		<decoration type="block" blockname="ocb_flower_003" prob="0.01" rotatemax="7"/>
+		<decoration type="block" blockname="ocb_flower_004" prob="0.01" rotatemax="7"/>
+		<decoration type="block" blockname="ocb_flower_006" prob="0.01" rotatemax="7"/>
+		<decoration type="block" blockname="ocb_flower_007" prob="0.01" rotatemax="7"/>
+		<decoration type="block" blockname="ocb_flower_008" prob="0.01" rotatemax="7"/>
+		<decoration type="block" blockname="ocb_flower_009" prob="0.01" rotatemax="7"/>
+		<decoration type="block" blockname="ocb_flower_010" prob="0.01" rotatemax="7"/>
+
+	</append>
+
+</configs>

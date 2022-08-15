@@ -18,6 +18,60 @@
 			<property name="DisplayType" value="blockTerrain"/>
 		</block>
 
+		<block name="ocb_flower_001">
+			<property name="Extends" value="treeGrassMaster" param1="DisplayInfo"/>
+			<property name="Texture" value="ocb_flower_001"/>
+			<drop event="Harvest" name="resourceYuccaFibers" count="2" tag="allHarvest"/>
+		</block>
+
+		<block name="ocb_flower_002">
+			<property name="Extends" value="treeGrassMaster" param1="DisplayInfo"/>
+			<property name="Texture" value="ocb_flower_002"/>
+			<drop event="Harvest" name="resourceYuccaFibers" count="2" tag="allHarvest"/>
+		</block>
+
+		<block name="ocb_flower_003">
+			<property name="Extends" value="treeGrassMaster" param1="DisplayInfo"/>
+			<property name="Texture" value="ocb_flower_003"/>
+			<drop event="Harvest" name="resourceYuccaFibers" count="2" tag="allHarvest"/>
+		</block>
+
+		<block name="ocb_flower_004">
+			<property name="Extends" value="treeGrassMaster" param1="DisplayInfo"/>
+			<property name="Texture" value="ocb_flower_004"/>
+			<drop event="Harvest" name="resourceYuccaFibers" count="2" tag="allHarvest"/>
+		</block>
+
+		<block name="ocb_flower_006">
+			<property name="Extends" value="treeGrassMaster" param1="DisplayInfo"/>
+			<property name="Texture" value="ocb_flower_006"/>
+			<drop event="Harvest" name="resourceYuccaFibers" count="2" tag="allHarvest"/>
+		</block>
+
+		<block name="ocb_flower_007">
+			<property name="Extends" value="treeGrassMaster" param1="DisplayInfo"/>
+			<property name="Texture" value="ocb_flower_007"/>
+			<drop event="Harvest" name="resourceYuccaFibers" count="2" tag="allHarvest"/>
+		</block>
+
+		<block name="ocb_flower_008">
+			<property name="Extends" value="treeGrassMaster" param1="DisplayInfo"/>
+			<property name="Texture" value="ocb_flower_008"/>
+			<drop event="Harvest" name="resourceYuccaFibers" count="2" tag="allHarvest"/>
+		</block>
+
+		<block name="ocb_flower_009">
+			<property name="Extends" value="treeGrassMaster" param1="DisplayInfo"/>
+			<property name="Texture" value="ocb_flower_009"/>
+			<drop event="Harvest" name="resourceYuccaFibers" count="2" tag="allHarvest"/>
+		</block>
+
+		<block name="ocb_flower_010">
+			<property name="Extends" value="treeGrassMaster" param1="DisplayInfo"/>
+			<property name="Texture" value="ocb_flower_010"/>
+			<drop event="Harvest" name="resourceYuccaFibers" count="2" tag="allHarvest"/>
+		</block>
+
 	</append>
 
 </configs>

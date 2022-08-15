@@ -49,6 +49,40 @@
 			<property name="PaintCost" value="1" />
 		</paint>
 
+		<!--
+		<decal id="ocb_decal_001" name="txName_ocb_decal_001">
+			<property name="Diffuse" value="@modfolder:Resources/texture_patches_3175_1_XS.png"/>
+		</decal>
+		-->
+
+		<grass id="ocb_flower_001" name="txName_ocb_flower_001">
+			<property name="Diffuse" value="@modfolder:Resources/grassFlower01.png"/>
+		</grass>
+		<grass id="ocb_flower_002" name="txName_ocb_flower_002">
+			<property name="Diffuse" value="@modfolder:Resources/grassFlower02.png"/>
+		</grass>
+		<grass id="ocb_flower_003" name="txName_ocb_flower_003">
+			<property name="Diffuse" value="@modfolder:Resources/grassFlower03.png"/>
+		</grass>
+		<grass id="ocb_flower_004" name="txName_ocb_flower_004">
+			<property name="Diffuse" value="@modfolder:Resources/grassFlower04.png"/>
+		</grass>
+		<grass id="ocb_flower_006" name="txName_ocb_flower_006">
+			<property name="Diffuse" value="@modfolder:Resources/grassFlower06.png"/>
+		</grass>
+		<grass id="ocb_flower_007" name="txName_ocb_flower_007">
+			<property name="Diffuse" value="@modfolder:Resources/grassFlower07.png"/>
+		</grass>
+		<grass id="ocb_flower_008" name="txName_ocb_flower_008">
+			<property name="Diffuse" value="@modfolder:Resources/grassFlower08.png"/>
+		</grass>
+		<grass id="ocb_flower_009" name="txName_ocb_flower_009">
+			<property name="Diffuse" value="@modfolder:Resources/grassFlower09.png"/>
+		</grass>
+		<grass id="ocb_flower_010" name="txName_ocb_flower_011">
+			<property name="Diffuse" value="@modfolder:Resources/grassFlower10.png"/>
+		</grass>
+
 	</append>
 
 </configs>
