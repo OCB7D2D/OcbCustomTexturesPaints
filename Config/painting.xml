@@ -56,31 +56,49 @@
 		-->
 
 		<grass id="ocb_flower_001" name="txName_ocb_flower_001">
-			<property name="Diffuse" value="@modfolder:Resources/grassFlower01.png"/>
+			<property name="Diffuse" value="#@modfolder:Resources/GrassFlowers.unity3d?assets/textures/grassflower01.albedo.png"/>
+			<property name="Normal" value="#@modfolder:Resources/GrassFlowers.unity3d?assets/textures/grassflower01.normal.png"/>
+			<property name="Specular" value="#@modfolder:Resources/GrassFlowers.unity3d?assets/textures/grassflower01.aost.png"/>
 		</grass>
 		<grass id="ocb_flower_002" name="txName_ocb_flower_002">
-			<property name="Diffuse" value="@modfolder:Resources/grassFlower02.png"/>
+			<property name="Diffuse" value="#@modfolder:Resources/GrassFlowers.unity3d?assets/textures/grassflower02.albedo.png"/>
+			<property name="Normal" value="#@modfolder:Resources/GrassFlowers.unity3d?assets/textures/grassflower02.normal.png"/>
+			<property name="Specular" value="#@modfolder:Resources/GrassFlowers.unity3d?assets/textures/grassflower02.aost.png"/>
 		</grass>
 		<grass id="ocb_flower_003" name="txName_ocb_flower_003">
-			<property name="Diffuse" value="@modfolder:Resources/grassFlower03.png"/>
+			<property name="Diffuse" value="#@modfolder:Resources/GrassFlowers.unity3d?assets/textures/grassflower03.albedo.png"/>
+			<property name="Normal" value="#@modfolder:Resources/GrassFlowers.unity3d?assets/textures/grassflower03.normal.png"/>
+			<property name="Specular" value="#@modfolder:Resources/GrassFlowers.unity3d?assets/textures/grassflower03.aost.png"/>
 		</grass>
 		<grass id="ocb_flower_004" name="txName_ocb_flower_004">
-			<property name="Diffuse" value="@modfolder:Resources/grassFlower04.png"/>
+			<property name="Diffuse" value="#@modfolder:Resources/GrassFlowers.unity3d?assets/textures/grassflower04.albedo.png"/>
+			<property name="Normal" value="#@modfolder:Resources/GrassFlowers.unity3d?assets/textures/grassflower04.normal.png"/>
+			<property name="Specular" value="#@modfolder:Resources/GrassFlowers.unity3d?assets/textures/grassflower04.aost.png"/>
 		</grass>
 		<grass id="ocb_flower_006" name="txName_ocb_flower_006">
-			<property name="Diffuse" value="@modfolder:Resources/grassFlower06.png"/>
+			<property name="Diffuse" value="#@modfolder:Resources/GrassFlowers.unity3d?assets/textures/grassflower06.albedo.png"/>
+			<property name="Normal" value="#@modfolder:Resources/GrassFlowers.unity3d?assets/textures/grassflower06.normal.png"/>
+			<property name="Specular" value="#@modfolder:Resources/GrassFlowers.unity3d?assets/textures/grassflower06.aost.png"/>
 		</grass>
 		<grass id="ocb_flower_007" name="txName_ocb_flower_007">
-			<property name="Diffuse" value="@modfolder:Resources/grassFlower07.png"/>
+			<property name="Diffuse" value="#@modfolder:Resources/GrassFlowers.unity3d?assets/textures/grassflower07.albedo.png"/>
+			<property name="Normal" value="#@modfolder:Resources/GrassFlowers.unity3d?assets/textures/grassflower07.normal.png"/>
+			<property name="Specular" value="#@modfolder:Resources/GrassFlowers.unity3d?assets/textures/grassflower07.aost.png"/>
 		</grass>
 		<grass id="ocb_flower_008" name="txName_ocb_flower_008">
-			<property name="Diffuse" value="@modfolder:Resources/grassFlower08.png"/>
+			<property name="Diffuse" value="#@modfolder:Resources/GrassFlowers.unity3d?assets/textures/grassflower08.albedo.png"/>
+			<property name="Normal" value="#@modfolder:Resources/GrassFlowers.unity3d?assets/textures/grassflower08.normal.png"/>
+			<property name="Specular" value="#@modfolder:Resources/GrassFlowers.unity3d?assets/textures/grassflower08.aost.png"/>
 		</grass>
 		<grass id="ocb_flower_009" name="txName_ocb_flower_009">
-			<property name="Diffuse" value="@modfolder:Resources/grassFlower09.png"/>
+			<property name="Diffuse" value="#@modfolder:Resources/GrassFlowers.unity3d?assets/textures/grassflower09.albedo.png"/>
+			<property name="Normal" value="#@modfolder:Resources/GrassFlowers.unity3d?assets/textures/grassflower09.normal.png"/>
+			<property name="Specular" value="#@modfolder:Resources/GrassFlowers.unity3d?assets/textures/grassflower09.aost.png"/>
 		</grass>
-		<grass id="ocb_flower_010" name="txName_ocb_flower_011">
-			<property name="Diffuse" value="@modfolder:Resources/grassFlower10.png"/>
+		<grass id="ocb_flower_010" name="txName_ocb_flower_010">
+			<property name="Diffuse" value="#@modfolder:Resources/GrassFlowers.unity3d?assets/textures/grassflower10.albedo.png"/>
+			<property name="Normal" value="#@modfolder:Resources/GrassFlowers.unity3d?assets/textures/grassflower10.normal.png"/>
+			<property name="Specular" value="#@modfolder:Resources/GrassFlowers.unity3d?assets/textures/grassflower10.aost.png"/>
 		</grass>
 
 	</append>
