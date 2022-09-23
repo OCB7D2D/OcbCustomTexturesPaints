@@ -7,7 +7,13 @@ Needs [OcbCustomTextures][1] Mod to actually do anything!
 
 ![Custom Terrain](Screens/custom-terrain.jpg)
 
+![Terrain Blend](Screens/terrain-blend.jpg)
+
 ## Changelog
+
+### Version 0.2.0
+
+- Add terrain blend demo
 
 ### Version 0.1.0
 
