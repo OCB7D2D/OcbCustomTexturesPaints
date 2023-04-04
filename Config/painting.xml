@@ -2,6 +2,11 @@
 
 	<append xpath="/paints">
 
+		<microsplat index="20">
+			<property name="Diffuse" value="#@modfolder:Resources/Terrain.unity3d?assets/4k.diffuse.jpg"/>
+			<property name="Normal" value="#@modfolder:Resources/Terrain.unity3d?assets/4k.normal.jpg"/>
+		</microsplat>
+
 		<terrain id="demo_terrain" x="0" y="0" w="0" h="0" blockw="4" blockh="4">
 			<property name="Diffuse" value="#@modfolder:Resources/Terrain.unity3d?assets/4k.diffuse.jpg"/>
 			<property name="Normal" value="#@modfolder:Resources/Terrain.unity3d?assets/4k.normal.jpg"/>
