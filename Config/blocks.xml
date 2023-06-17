@@ -1,62 +1,10 @@
 <configs>
-
-	<setattribute xpath="/blocks/block[@name='brickShapes']/property[@name='Texture']" name="value">bark_pine_002</setattribute>
-
 	<append xpath="/blocks">
-
-		<block name="demo_terrain">
-			<property name="Material" value="Mwood"/>
-			<property name="NoScrapping" value="true"/>
-			<property name="Shape" value="Terrain"/>
-			<property name="Mesh" value="terrain"/>
-			<property name="Texture" value="demo_terrain"/>
-			<!-- Seems to be only used for the preview!? -->
-			<property name="TerrainIndex" value="9"/>
-			<property name="LPHardnessScale" value="2"/>
-			<property name="Map.Color" value="40,73,39"/>
-			<property name="ImposterExclude" value="true"/>
-			<property name="DisplayType" value="blockTerrain"/>
+		<block name="test_green" shapes="all">
+			<property name="Material" value="Mwood_shapes"/>
+			<property name="Shape" value="New"/>
+			<property name="Texture" value="test_green"/>
+			<property name="UiBackgroundTexture" value="test_green"/>
 		</block>
-
-		<block name="demo_terrain_blend">
-			<!-- some required properts for vanilla -->
-			<property name="Material" value="Mdirt"/>
-			<property name="Shape" value="Terrain"/>
-			<property name="Mesh" value="terrain"/>
-			<!-- Important to give it this class to parse new properts -->
-			<!-- we could do it more agnostic, but this performs better -->
-			<property name="Class" value="CustomTerrain, CustomTextures"/>
-			<!-- this is the fallback texture, e.g. some preview will be -->
-			<!-- rendered with this single texture. Also if you have the -->
-			<!-- legacy distant terrain mod enabled, this texture will be -->
-			<!-- used. This feature is meant to be used with SplatMap. -->
-			<!-- Although you may hockup a new texture to support both -->
-			<property name="Texture" value="demo_terrain"/>
-			<!-- Determines how the preview looks when placing? -->
-			<!-- Not sure yet how this relates to texture indexes? -->
-			<property name="TerrainIndex" value="9"/>
-			<!-- Main setting needed to enable custom terrain blends -->
-			<!-- It seems this is the main knob the tell micro splat -->
-			<!-- to also sample additional texture for the final result -->
-			<property name="TerrainBlend" value="1.0"/>
-			<!-- Below are the blend settings -->
-			<!-- Most times you want 2 or 3 blends -->
-			<!-- Some compinations work ok, some work badly -->
-			<!-- You'll need to figure out a combo that fits -->
-			<property name="BlendDirt" value="0.0"/>
-			<property name="BlendGravel" value="0.0"/>
-			<property name="BlendOreCoal" value="0.2"/>
-			<property name="BlendAsphalt" value="0.4"/>
-			<property name="BlendOreIron" value="0.0"/>
-			<property name="BlendOreNitrate" value="0.0"/>
-			<property name="BlendOreOil" value="0.0"/>
-			<property name="BlendOreLead" value="0.0"/>
-			<property name="BlendStoneDesert" value="1.0"/>
-			<property name="BlendStoneRegular" value="0.0"/>
-			<property name="BlendStoneDestroyed" value="0.0"/>
-			<!-- Further Additional terrain block settings ... -->
-		</block>
-
 	</append>
-
 </configs>

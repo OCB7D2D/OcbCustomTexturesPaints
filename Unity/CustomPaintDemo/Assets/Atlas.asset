@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9aafab5ec24e3a468cbf65f5c7e23b0, type: 3}
+  m_Name: Atlas
+  m_EditorClassIdentifier: 
+  Path: ..\..\..\Resources\Atlas.unity3d
+  IncludeAssetsFromFolders: 0
+  SearchFoldersRecursively: 0
+  CreateDeterministicAssetBundle: 1
+  AppendHashToAssetBundleName: 1
+  Compression: 1
+  VerboseLogging: 0
+  Objects:
+  - {fileID: 2800000, guid: 4f206dcef10a4ba478690e35032aa362, type: 3}
+  - {fileID: 2800000, guid: 1b2f6257aa754c44c8e2106d329a9acb, type: 3}
+  - {fileID: 2800000, guid: bdf203719de8d6a4eaa169d6da887929, type: 3}
+  - {fileID: 2800000, guid: 2012d004f8409fb41abe49dc90c0b3fd, type: 3}
+  - {fileID: 2800000, guid: 0e8d5461678940a47ab503110cc45b9b, type: 3}
+  - {fileID: 2800000, guid: e023c9518f963c44085eb6167b686a48, type: 3}
+  - {fileID: 2800000, guid: 33586c849781b7e44b8d206b6f283c5b, type: 3}

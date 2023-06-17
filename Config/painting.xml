@@ -1,59 +1,112 @@
 <configs>
-
 	<append xpath="/paints">
+		<opaque id="test_square" name="txName_test_colors_2x2" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+			<!-- Diffuse must not have an alpha channel or texture copy will fail! -->
+			<property name="Diffuse" value="512:512:1:1:0,512:512:0:1:1,512:512:1:0:0,512:512:0:0:1"/>
+			<!-- Specular has the format: Metallic=R, Occlusion=G, Emission=B, Roughness=A -->
+			<property name="Specular" value="512:512:0.1:1:0:0.85,512:512:0.1:1:0:0.85,512:512:0.1:1:0:0.85,512:512:0.1:1:0:0.85"/>
+			<!-- Although normal maps are missing, we will fill in and use neutral/flat one -->
+			<property name="Group" value="txGroupCustom"/>
+			<property name="SortIndex" value="1"/>
+			<property name="PaintCost" value="4"/>
+			<property name="GlobalUV" value="False"/>
+			<property name="Color" value="0.48,0.35,0.29"/>
+			<property name="Material" value="wood"/>
+		</opaque>
 
-		<microsplat index="20">
-			<property name="Diffuse" value="#@modfolder:Resources/Terrain.unity3d?assets/4k.diffuse.jpg"/>
-			<property name="Normal" value="#@modfolder:Resources/Terrain.unity3d?assets/4k.normal.jpg"/>
-		</microsplat>
+		<opaque id="test_width" name="txName_test_colors_4x1" x="0" y="0" w="4" h="1" blockw="4" blockh="1">
+			<!-- Diffuse must not have an alpha channel or texture copy will fail! -->
+			<property name="Diffuse" value="512:512:1:1:0,512:512:0:1:1,512:512:1:0:0,512:512:0:0:1"/>
+			<!-- Specular has the format: Metallic=R, Occlusion=G, Emission=B, Roughness=A -->
+			<property name="Specular" value="512:512:0.1:1:0:0.85,512:512:0.1:1:0:0.85,512:512:0.1:1:0:0.85,512:512:0.1:1:0:0.85"/>
+			<!-- Although normal maps are missing, we will fill in and use neutral/flat one -->
+			<property name="Group" value="txGroupCustom"/>
+			<property name="SortIndex" value="2"/>
+			<property name="PaintCost" value="4"/>
+			<property name="GlobalUV" value="False"/>
+			<property name="Color" value="0.48,0.35,0.29"/>
+			<property name="Material" value="wood"/>
+		</opaque>
 
-		<terrain id="demo_terrain" x="0" y="0" w="0" h="0" blockw="4" blockh="4">
-			<property name="Diffuse" value="#@modfolder:Resources/Terrain.unity3d?assets/4k.diffuse.jpg"/>
-			<property name="Normal" value="#@modfolder:Resources/Terrain.unity3d?assets/4k.normal.jpg"/>
-			<property name="Color" value="0,1,0" />
-			<property name="SwitchUV" value="False" />
-			<property name="GlobalUV" value="False" />
-			<property name="Material" value="dirt" />
-		</terrain >
+		<opaque id="test_height" name="txName_test_colors_1x4" x="0" y="0" w="1" h="4" blockw="1" blockh="4">
+			<!-- Diffuse must not have an alpha channel or texture copy will fail! -->
+			<property name="Diffuse" value="512:512:1:1:0,512:512:0:1:1,512:512:1:0:0,512:512:0:0:1"/>
+			<!-- Specular has the format: Metallic=R, Occlusion=G, Emission=B, Roughness=A -->
+			<property name="Specular" value="512:512:0.1:1:0:0.85,512:512:0.1:1:0:0.85,512:512:0.1:1:0:0.85,512:512:0.1:1:0:0.85"/>
+			<!-- Although normal maps are missing, we will fill in and use neutral/flat one -->
+			<property name="Group" value="txGroupCustom"/>
+			<property name="SortIndex" value="3"/>
+			<property name="PaintCost" value="4"/>
+			<property name="GlobalUV" value="False"/>
+			<property name="Color" value="255,0,0"/>
+			<property name="Material" value="wood"/>
+		</opaque>
 
-		<paint id="bark_pine_001" name="txName_bark_pine_001">
-			<property name="Diffuse" value="#@modfolder:Resources/Atlas.unity3d?assets/bark_pine_001_diffuse.jpg"/>
-			<property name="Normal" value="#@modfolder:Resources/Atlas.unity3d?assets/bark_pine_001_normal.jpg"/>
-			<property name="Group" value="txGroupDecoration"/>
-			<property name="Color" value="0.4823529,0.3490196,0.2901961"/>
-			<property name="Material" value="wood" />
-			<property name="PaintCost" value="1" />
-		</paint>
+		<opaque id="test_2k" name="txName_test_colors_4x4" x="0" y="0" w="4" h="4" blockw="4" blockh="4">
+			<!-- Diffuse must not have an alpha channel or texture copy will fail! -->
+			<property name="Diffuse" value="512:512:1:1:0,512:512:0:1:1,512:512:1:0:0,512:512:0:0:1,512:512:1:0.5:0,512:512:0.5:1:1,512:512:1:0.5:0.5,512:512:0.5:0:1,512:512:0.5:1:0,512:512:0:0.5:1,512:512:0.5:0.25:0,512:512:0.5:0.4:1,512:512:1:1:0.6,512:512:0.3:0.5:1,512:512:0.3:0.9:0,512:512:0.8:0.5:0.2"/>
+			<!-- Specular has the format: Metallic=R, Occlusion=G, Emission=B, Roughness=A -->
+			<property name="Specular" value="512:512:0.1:1:0:0.85,512:512:0.1:1:0:0.85,512:512:0.1:1:0:0.85,512:512:0.1:1:0:0.85,512:512:0.1:1:0:0.85,512:512:0.1:1:0:0.85,512:512:0.1:1:0:0.85,512:512:0.1:1:0:0.85,512:512:0.1:1:0:0.85,512:512:0.1:1:0:0.85,512:512:0.1:1:0:0.85,512:512:0.1:1:0:0.85,512:512:0.1:1:0:0.85,512:512:0.1:1:0:0.85,512:512:0.1:1:0:0.85,512:512:0.1:1:0:0.85"/>
+			<!-- Although normal maps are missing, we will fill in and use neutral/flat one -->
+			<property name="Group" value="txGroupCustom"/>
+			<property name="SortIndex" value="4"/>
+			<property name="PaintCost" value="2"/>
+			<property name="GlobalUV" value="False"/>
+			<property name="Color" value="0.48,0.35,0.29"/>
+			<property name="Material" value="wood"/>
+		</opaque>
 
-		<paint id="bark_pine_all_faces" name="txName_bark_pine_all_faces" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+		<opaque id="test_green" name="txName_test_green" x="0" y="0" w="1" h="1" blockw="1" blockh="1">
+			<!-- Diffuse must not have an alpha channel or texture copy will fail! -->
+			<property name="Diffuse" value="512:512:0:1:0"/>
+			<!-- Specular has the format: Metallic=R, Occlusion=G, Emission=B, Roughness=A -->
+			<property name="Specular" value="512:512:0:1:0:1"/>
+			<!-- Although normal maps are missing, we will fill in and use neutral/flat one -->
+			<property name="Group" value="txGroupCustom"/>
+			<property name="SortIndex" value="0"/>
+			<property name="PaintCost" value="1"/>
+			<property name="GlobalUV" value="False"/>
+			<property name="Color" value="0.48,0.35,0.29"/>
+			<property name="Material" value="wood"/>
+		</opaque>
+
+		<opaque id="bark_pine_all_faces" name="txName_bark_pine_all_faces" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
 			<property name="Diffuse" value="#@modfolder:Resources/Atlas.unity3d?assets/bark_pine_002_diffuse.jpg,assets/bark_pine_001_diffuse.jpg,assets/bark_pine_002_diffuse.jpg,assets/bark_pine_003_diffuse.jpg"/>
 			<property name="Normal" value="#@modfolder:Resources/Atlas.unity3d?assets/bark_pine_002_normal.jpg,assets/bark_pine_001_normal.jpg,assets/bark_pine_002_normal.jpg,assets/bark_pine_003_normal.jpg"/>
-			<property name="Group" value="txGroupDecoration"/>
-			<property name="SwitchUV" value="False" />
-			<property name="GlobalUV" value="False" />
-			<property name="Color" value="0.4823529,0.3490196,0.2901961"/>
-			<property name="Material" value="wood" />
-			<property name="PaintCost" value="1" />
-		</paint>
+			<property name="Normal" value="#@modfolder:Resources/Atlas.unity3d?assets/bark_pine_specular.png,assets/bark_pine_specular.png,assets/bark_pine_specular.png,assets/bark_pine_specular.png"/>
+			<property name="Group" value="txGroupPines"/>
+			<property name="PaintCost" value="2"/>
+		</opaque>
 
-		<paint id="bark_pine_002" name="txName_bark_pine_002" w="1" h="1" blockw="1" blockh="1">
+		<opaque id="bark_pine_001" name="txName_bark_pine_001">
+			<property name="Diffuse" value="#@modfolder:Resources/Atlas.unity3d?assets/bark_pine_001_diffuse.jpg"/>
+			<property name="Normal" value="#@modfolder:Resources/Atlas.unity3d?assets/bark_pine_001_normal.jpg"/>
+			<property name="Specular" value="#@modfolder:Resources/Atlas.unity3d?assets/bark_pine_specular.png"/>
+			<property name="Group" value="txGroupPines"/>
+			<property name="SortIndex" value="0"/>
+		</opaque>
+
+		<opaque id="bark_pine_002" name="txName_bark_pine_002" w="1" h="1" blockw="1" blockh="1">
 			<property name="Diffuse" value="#@modfolder:Resources/Atlas.unity3d?assets/bark_pine_002_diffuse.jpg"/>
 			<property name="Normal" value="#@modfolder:Resources/Atlas.unity3d?assets/bark_pine_002_normal.jpg"/>
-			<property name="Group" value="txGroupDecoration"/>
-			<property name="Color" value="0.4823529,0.3490196,0.2901961"/>
-			<property name="Material" value="wood" />
-			<property name="PaintCost" value="1" />
-		</paint>
+			<property name="Specular" value="#@modfolder:Resources/Atlas.unity3d?assets/bark_pine_specular.png"/>
+			<property name="Group" value="txGroupPines"/>
+			<property name="SortIndex" value="0"/>
+		</opaque>
 
-		<paint id="bark_pine_003" name="txName_bark_pine_003" x="0" y="0" w="1" h="1" blockw="1" blockh="1">
+		<opaque id="bark_pine_003" name="txName_bark_pine_003" x="0" y="0" w="1" h="1" blockw="1" blockh="1">
 			<property name="Diffuse" value="#@modfolder:Resources/Atlas.unity3d?assets/bark_pine_003_diffuse.jpg"/>
 			<property name="Normal" value="#@modfolder:Resources/Atlas.unity3d?assets/bark_pine_003_normal.jpg"/>
-			<property name="Group" value="txGroupDecoration"/>
-			<property name="Color" value="0.4823529,0.3490196,0.2901961"/>
-			<property name="Material" value="wood" />
-			<property name="PaintCost" value="1" />
-		</paint>
+			<property name="Specular" value="#@modfolder:Resources/Atlas.unity3d?assets/bark_pine_specular.png"/>
+			<property name="Group" value="txGroupPines"/>
+			<property name="SortIndex" value="0"/>
+		</opaque>
 
+		<!-- example to overwrite plywood -->
+		<!-- <opaque id="65">
+			<property name="Diffuse" value="#@modfolder:Resources/Atlas.unity3d?assets/bark_pine_003_diffuse.jpg,Resources/Atlas.unity3d?assets/bark_pine_003_diffuse.jpg,Resources/Atlas.unity3d?assets/bark_pine_003_diffuse.jpg,Resources/Atlas.unity3d?assets/bark_pine_003_diffuse.jpg"/>
+			<property name="Normal" value="#@modfolder:Resources/Atlas.unity3d?assets/bark_pine_003_normal.jpg,Resources/Atlas.unity3d?assets/bark_pine_003_normal.jpg,Resources/Atlas.unity3d?assets/bark_pine_003_normal.jpg,Resources/Atlas.unity3d?assets/bark_pine_003_normal.jpg"/>
+			<property name="Specular" value="#@modfolder:Resources/Atlas.unity3d?assets/bark_pine_specular.png,Resources/Atlas.unity3d?assets/bark_pine_specular.png,Resources/Atlas.unity3d?assets/bark_pine_specular.png,Resources/Atlas.unity3d?assets/bark_pine_specular.png"/>
+		</opaque> -->
 	</append>
-
 </configs>

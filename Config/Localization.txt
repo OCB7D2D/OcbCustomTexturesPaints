@@ -1,0 +1,12 @@
+Key,english
+txName_test_colors_2x2,Colored 1k (2x2)
+txName_test_colors_1x4,Colored 1k (1x4)
+txName_test_colors_4x1,Colored 1k (4x1)
+txName_test_colors_4x4,Colored 2k (4x4)
+txName_test_green,Green Block
+txName_bark_pine_all_faces,Bark Pine Mixed
+txName_bark_pine_001,Bark Pine 01
+txName_bark_pine_002,Bark Pine 02
+txName_bark_pine_003,Bark Pine 03
+txGroupPines,Custom Pine Paints
+txGroupCustom,Custom Paints
