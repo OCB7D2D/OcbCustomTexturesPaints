@@ -73,7 +73,7 @@
 		<opaque id="bark_pine_all_faces" name="txName_bark_pine_all_faces" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
 			<property name="Diffuse" value="#@modfolder:Resources/Atlas.unity3d?assets/bark_pine_002_diffuse.jpg,assets/bark_pine_001_diffuse.jpg,assets/bark_pine_002_diffuse.jpg,assets/bark_pine_003_diffuse.jpg"/>
 			<property name="Normal" value="#@modfolder:Resources/Atlas.unity3d?assets/bark_pine_002_normal.jpg,assets/bark_pine_001_normal.jpg,assets/bark_pine_002_normal.jpg,assets/bark_pine_003_normal.jpg"/>
-			<property name="Normal" value="#@modfolder:Resources/Atlas.unity3d?assets/bark_pine_specular.png,assets/bark_pine_specular.png,assets/bark_pine_specular.png,assets/bark_pine_specular.png"/>
+			<property name="Specular" value="#@modfolder:Resources/Atlas.unity3d?assets/bark_pine_specular.png,assets/bark_pine_specular.png,assets/bark_pine_specular.png,assets/bark_pine_specular.png"/>
 			<property name="Group" value="txGroupPines"/>
 			<property name="PaintCost" value="2"/>
 		</opaque>
@@ -100,6 +100,14 @@
 			<property name="Specular" value="#@modfolder:Resources/Atlas.unity3d?assets/bark_pine_specular.png"/>
 			<property name="Group" value="txGroupPines"/>
 			<property name="SortIndex" value="0"/>
+		</opaque>
+
+		<opaque id="armour_plating" name="txName_armour_plating" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+			<property name="Diffuse" value="#@modfolder:Resources/Plating.unity3d?Diffuse00.png,Diffuse10.png,Diffuse01.png,Diffuse11.png"/>
+			<property name="Normal" value="#@modfolder:Resources/Plating.unity3d?Normal00.png,Normal10.png,Normal01.png,Normal11.png"/>
+			<property name="Specular" value="#@modfolder:Resources/Plating.unity3d?MOER00.png,MOER10.png,MOER01.png,MOER11.png"/>
+			<property name="Group" value="txGroupPines"/>
+			<property name="PaintCost" value="2"/>
 		</opaque>
 
 		<!-- example to overwrite plywood -->

@@ -7,6 +7,10 @@ Needs [OcbCustomTextures][1] to actually do anything!
 
 ## Changelog
 
+### Version 0.6.1
+
+- Add armor plating demo
+
 ### Version 0.6.0
 
 - Update compatibility for 7D2D A21.1(b15)
