@@ -19,6 +19,16 @@ MonoBehaviour:
   AppendHashToAssetBundleName: 1
   Compression: 1
   VerboseLogging: 0
+  ShowPlatformTargets: 0
+  StandaloneWindows: 1
+  StandaloneMacOSX: 0
+  StandaloneLinux: 0
+  StripRedundantAPIs: 1
+  WantD3D11: 1
+  WantOpenGL: 1
+  WantVulkan: 1
+  WantMetal: 1
+  SeparateShaders: 0
   Objects:
   - {fileID: 2800000, guid: 4f206dcef10a4ba478690e35032aa362, type: 3}
   - {fileID: 2800000, guid: 1b2f6257aa754c44c8e2106d329a9acb, type: 3}

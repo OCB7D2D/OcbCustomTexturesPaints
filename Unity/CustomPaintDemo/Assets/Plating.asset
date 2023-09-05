@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9aafab5ec24e3a468cbf65f5c7e23b0, type: 3}
+  m_Name: Plating
+  m_EditorClassIdentifier: 
+  Path: ..\..\..\Resources\Plating.unity3d
+  IncludeAssetsFromFolders: 0
+  SearchFoldersRecursively: 0
+  CreateDeterministicAssetBundle: 1
+  AppendHashToAssetBundleName: 1
+  Compression: 1
+  VerboseLogging: 0
+  ShowPlatformTargets: 0
+  StandaloneWindows: 1
+  StandaloneMacOSX: 0
+  StandaloneLinux: 0
+  StripRedundantAPIs: 1
+  WantD3D11: 1
+  WantOpenGL: 1
+  WantVulkan: 1
+  WantMetal: 1
+  SeparateShaders: 0
+  Objects:
+  - {fileID: 2800000, guid: 50791b2b33c19504e9b0cefeea7b1e37, type: 3}
+  - {fileID: 2800000, guid: 6d523a54bfbe8ed42b981f57fd936cfe, type: 3}
+  - {fileID: 2800000, guid: d1d2624ddcddc114ea364d4671e6a1e2, type: 3}
+  - {fileID: 2800000, guid: 8709e0a296432854ea501f63449618cf, type: 3}
+  - {fileID: 2800000, guid: 75cb68e4ecfe28346b7c9cd920b6029d, type: 3}
+  - {fileID: 2800000, guid: 45aadfd97f478684e8f65b2919ad6df2, type: 3}
+  - {fileID: 2800000, guid: 6eddf7c7e214345458ae744c4c2abb9b, type: 3}
+  - {fileID: 2800000, guid: d9e007f812794cb4f8b9a8ac873d00d7, type: 3}
+  - {fileID: 2800000, guid: 46f3c50e0037bbe449e630961ed3803f, type: 3}
+  - {fileID: 2800000, guid: ab1afaf9a2cfb9e4a82bc785fd4644d7, type: 3}
+  - {fileID: 2800000, guid: 87b74f9569292f04fac13fb52a1ae511, type: 3}
+  - {fileID: 2800000, guid: 8ff2b3f6ed5b2434c837c707f05fa069, type: 3}

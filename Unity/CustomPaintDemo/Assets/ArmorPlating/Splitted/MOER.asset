@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cafa96034e9aa6438ecc13cf334454e, type: 3}
+  m_Name: MOER
+  m_EditorClassIdentifier: 
+  TextureSplitWidth: 1
+  TextureSplitHeight: 1
+  TextureOffsetWidth: 256
+  TextureOffsetHeight: 0
+  TextureSource: {fileID: 2800000, guid: df87ef1ffd0ec434cae8d64d608f632e, type: 3}
