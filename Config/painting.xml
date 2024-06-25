@@ -73,7 +73,7 @@
 		<opaque id="bark_pine_all_faces" name="txName_bark_pine_all_faces" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
 			<property name="Diffuse" value="#@modfolder:Resources/Atlas.unity3d?assets/bark_pine_002_diffuse.jpg,assets/bark_pine_001_diffuse.jpg,assets/bark_pine_002_diffuse.jpg,assets/bark_pine_003_diffuse.jpg"/>
 			<property name="Normal" value="#@modfolder:Resources/Atlas.unity3d?assets/bark_pine_002_normal.jpg,assets/bark_pine_001_normal.jpg,assets/bark_pine_002_normal.jpg,assets/bark_pine_003_normal.jpg"/>
-			<property name="Normal" value="#@modfolder:Resources/Atlas.unity3d?assets/bark_pine_specular.png,assets/bark_pine_specular.png,assets/bark_pine_specular.png,assets/bark_pine_specular.png"/>
+			<property name="Specular" value="#@modfolder:Resources/Atlas.unity3d?assets/bark_pine_specular.png,assets/bark_pine_specular.png,assets/bark_pine_specular.png,assets/bark_pine_specular.png"/>
 			<property name="Group" value="txGroupPines"/>
 			<property name="PaintCost" value="2"/>
 		</opaque>
